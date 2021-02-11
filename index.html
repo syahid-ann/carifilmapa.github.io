@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>MyMovie</title>
+  </head>
+  <body>
+  
+<!--NAVBAR-->
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+    <a class="navbar-brand" href="#">MyMovie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+        <a class="nav-link active" href="#section1">Find me <span class="sr-only">(current)</a>
+        <a class="nav-link active" href="#section2">Trending <span class="sr-only"></a>
+     
+        </div>
+    </div>
+</div>
+</nav>
+<!--END NAVBAR-->
+
+<!--CONTENT-->
+
+<div class="container">
+    <div class="row mt-3">
+        <div class="col">
+            <h1 class="text-center">Mau Cari Film Apa?</h1>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-6 col-md-4 mt-3 ">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Cari Film" id="search-input">
+                    <div class="input-group-append">
+                        <button class="btn btn-light btn-outline-secondary" type="button" id="search-button">Cari</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="row" id="movie-list">
+
+    </div>
+
+<!--JUMBOTRON TOP MOVIES-->
+
+    <div class="jumbotron jumbotron-fluid" id="section2">
+      <h3 class="text-center " >Trending</h3>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm"></div>
+            <div class="card " style="width: 15rem;">
+                <img class="zoom" src="img/snk.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ini1">Details</a>
+                </div>
+              </div>
+              <div class="col-sm"></div>
+              <div class="card" style="width: 15rem;">
+                <img class="zoom" src="img/got.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ini2">Details</a>
+                </div>
+              </div>
+              <div class="col-sm"></div>
+              <div class="card" style="width: 15rem;">
+                <img class="zoom" src="img/startup.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ini3">Details</a>
+                </div>
+              </div>
+            
+          </div>
+
+    </div>
+  </div>
+
+  <!--ADD MODAL // POP UP-->
+  <!--PERTAMA-->
+    
+  <div class="modal fade" id="ini1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Shingeki No Kyojin : Final Season</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <p class="text-justify">Reiner pun dihantui rasa bersalah karena telah membunuh banyak orang di Pulau Paradis. Eren lantas memanfaatkan kondisi psikologisnya ini untuk mendorong Reiner bunuh diri demi menebus kesalahannya. Eren yang kini bisa berkomunikasi dengan sebagian Titan dan bahkan mampu mengendalikan mereka juga mulai mengubah tujuan balas dendamnya.</p>
+          <iframe width="" height="" src="https://www.youtube.com/embed/M_OauHnAFc8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--KEDUA-->
+
+  <div class="modal fade" id="ini2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Game of Thrones Series</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          
+          <p class="text-justify">Film 'Game of Thrones' diangkat dari novel berjudul 'A Song of Ice and Fire' karya George R. R. Martin yang menceritakan kehidupan beberapa kerajaan di benua fiksi. 'Game of Thrones' begitu digemari berbagai kalangan lantaran memiliki jalan cerita yang beda dari drama kolosal pada umumnya.
+          </p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--KETIGA-->
+
+<div class="modal fade" id="ini3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Start-Up !</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <p class="text-justify">Berkisah tentang perjuangan bisnis anak muda untuk merintis perusahaan baru. Jatuh bangun mengejar mimpi dalam drama Start Up diperankan oleh aktor dan aktris kebanggaan Korea Selatan, yaitu Bae Suzy, Nam Joo-hyuk, Kim Seon-ho, dan Kang Han-na.
+        </p>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Footer-->
+
+<div class="card  border-primary footer" id="section1">
+  <div class="card-body mx-auto" >
+    <h5 class="card-title text-center">Contact Me</h5>
+    <p class="card-text text-center">Please support me, press the button below </p>
+    <a href="#" class="btn btn-info" style="margin-left: 80px;">Get In Touch </a>
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#section1 {
+    background-color: black;  
+}
+
+body{
+   background-color: lightpink; 
+}
+
+.jumbotron{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.jumbotron .card {
+    margin-right: 60px;
+}
+
+.jumbotron .text-center{
+    margin-top: -20px;
+    padding-bottom: 5px;
+}
+
+
+.jumbotron .btn{
+    margin-left: 50px;
+}
+.card {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: thistle;
+}
+
+.zoom {
+    transition: transform .1s; /* Animation */
+}
+
+.zoom:hover {
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+
+.card h5 {
+    color:white;
+}
+
+.card p{
+    color: white;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .jumbotron .card {
+
+        margin-left: 79.5px;
+    }
+
+    .card {
+
+        width: 200px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        margin-left: 100px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .btn-info{
+       width: 200px;
+       margin-right: 70px;
+    }
+
+    .border-primary{
+        width: 400px;
+        margin-left: 5px;
+    }
+    .modal-body .iframe{
+        width: 100%;
+    }
+
+ }

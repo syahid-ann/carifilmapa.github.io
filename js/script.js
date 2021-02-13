@@ -2,7 +2,7 @@ function carifilm(){
     $('#movie-list').html('') //agar layar kosong kembali setelah mencari film//
 
     $.ajax({
-        url: 'http://www.omdbapi.com/?apikey=(Your API Key)&',
+        url: 'http://www.omdbapi.com/?apikey=5121258b&',
         type: 'get',
         dataType : 'json',
         data : {
